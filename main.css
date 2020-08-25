@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Schoolbell', cursive;
+}
+
+body{
+    background: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+    text-align: center;
+}
+h3{
+    margin-top: 2.8rem;
+    margin-bottom: 1rem;
+    color: rgb(53, 50, 50);
+    font-size: 2.7rem;
+}
+form{
+    margin-bottom: 1.3rem;
+}
+textarea{
+    margin: 1rem 2rem;
+    padding: 10px;
+}
+button{
+    margin-top: 1rem;
+    padding: 9px;
+    font-size: 17px;
+    color: rgb(53, 50, 50);
+}
+#meme-canvas{
+    width: 300px;
+    margin-top: 2rem;
+}
+.remove{
+    display: none;
+}
